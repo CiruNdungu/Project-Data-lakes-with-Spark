@@ -69,14 +69,12 @@ The project workspace includes 3 files:
 1.	Set the key and secret in the **dl.cfg** file
 
 [AWS]
-
 AWS_ACCESS_KEY_ID=
-
 AWS_SECRET_ACCESS_KEY=
 
 
 2.	Build the ETL pipeline to run the datasets on **etl.py**
 3.	Execute the ETL pipeline script by running:
-4.	 **$ python etl.py**
+	 **$ python etl.py**
 
 
