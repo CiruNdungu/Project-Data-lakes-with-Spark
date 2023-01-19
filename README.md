@@ -25,7 +25,7 @@ The data for this project is available on Amazon S3.
 The song dataset is a subset of real data from the **Million Song Dataset**. Each file is in JSON format and contains metadata about a song and the artist of that song.
 The files are partitioned by the first three letters of each song's track ID. Below is an example of the filepath to a file in this dataset.
 
-s3://udacity-dend/song_data/A/A/B/TRAABJL12903CDCF1A.json
+**s3://udacity-dend/song_data/A/A/B/TRAABJL12903CDCF1A.json**
 
 Below is an example of a single song file, TRAABJL12903CDCF1A.json.
 
@@ -69,7 +69,9 @@ The project workspace includes 3 files:
 1.	Set the key and secret in the **dl.cfg** file
 
 [AWS]
+
 AWS_ACCESS_KEY_ID=
+
 AWS_SECRET_ACCESS_KEY=
 
 
