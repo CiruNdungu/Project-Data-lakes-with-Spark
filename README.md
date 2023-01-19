@@ -1,4 +1,5 @@
-**Sparkify Data Lake Project with Apache Spark**
+**SPARKIFY DATA LAKE PROJECT WITH APACHE SPARK**
+
 
 **Introduction**
 Sparkify, a music streaming startup has continued to grow their user and song database and want to move their data warehouse into a data lake. Their data currently resides in S3 in a directory of JSON logs on user activity on their app as well as a directory with JSON metadata on the songs in their app.  
@@ -45,7 +46,7 @@ The star schema is optimized to run analytics queries for the songplay data
 
 **Project Files**
 The project workspace includes 3 files:
-1.	**dl.cfg **Contains the AWS access keys
+1.	**dl.cfg ** Contains the AWS access keys
 2.	**etl.py** Retrieves the song and log data from the S3 bucket, transforms the data into fact and dimensional tables then loads the table data back into S3 as parquet files.
 3.	**README.md** Contains project information 
 
