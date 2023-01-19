@@ -44,7 +44,7 @@ Below is an example of a single song file, TRAABJL12903CDCF1A.json.
 
 **Log Dataset**
 
-The log dataset consists of log files in JSON format generated based on the songs in the dataset above. These simulate activity logs from the music streaming app. The JSON logs on user activity have the following structure.
+The log dataset consists of log files in JSON format generated based on the songs in the dataset above. These simulate activity logs from the music streaming app. Below is an example of what the data in a log file, 2018-11-12-events.json looks like
 
 ![log dataset structure](https://user-images.githubusercontent.com/116004104/213382358-55e12f4a-b9bb-4972-b1e9-ac778f1b545a.png)
 
