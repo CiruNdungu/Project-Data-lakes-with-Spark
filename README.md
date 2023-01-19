@@ -10,12 +10,14 @@ The purpose of this project is to build an ETL pipeline that can extract data fr
 
 **SCHEMA DESIGN**
 
-The created tables include a fact table - **‘songplays’** and four dimension tables - **‘users’, ‘songs’, ‘artists’ ** and **‘time’.**  This follows the start schema principle which is suitable for performing analytical operations to gather more insights.
+The created tables include a fact table - **‘songplays’** and four dimension tables - **‘users’, ‘songs’, ‘artists’ and ‘time’**.  This follows the start schema principle which is suitable for performing analytical operations to gather more insights.
 
 **DATA**
 
 The data for this project is available on Amazon S3.
+
 •	Song data: s3://udacity-dend/song_data
+
 •	Log data: s3://udacity-dend/log_data
 
 **Song Dataset**
@@ -24,6 +26,7 @@ The song dataset is a subset of real data from the **Million Song Dataset**. Eac
 The files are partitioned by the first three letters of each song's track ID. Below is an example of the filepath to a file in this dataset.
 
 s3://udacity-dend/song_data/A/A/B/TRAABJL12903CDCF1A.json
+
 Below is an example of a single song file, TRAABJL12903CDCF1A.json.
 
 {
@@ -56,6 +59,7 @@ The star schema is optimized to run analytics queries for the songplay data
 **Project Files**
 
 The project workspace includes 3 files:
+
 1.	**dl.cfg** Contains the AWS access keys
 2.	**etl.py** Retrieves the song and log data from the S3 bucket, transforms the data into fact and dimensional tables then loads the table data back into S3 as parquet files.
 3.	**README.md** Contains project information 
